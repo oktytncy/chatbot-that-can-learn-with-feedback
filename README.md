@@ -32,7 +32,7 @@ Make sure you have a vector-capable Astra database (get one for free at [astra.d
 
     <p align="left"> <img  { width=100% } src="./images/2.png"></p>
 
-    <p align="left"> <img  { width=80% } src="./images/10.png"></p>
+    <p align="middle"> <img  { width=80% } src="./images/10.png"></p>
 
 - Next, select **Import** from the menu and upload the JSON file from the Langflow folder.
 
