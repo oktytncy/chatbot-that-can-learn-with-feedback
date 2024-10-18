@@ -1,0 +1,7 @@
+{
+  "langflow_id": "83fb1d94-ce3c-4308-a098-6efe83048579",
+  "flow_id": "853c4649-18fd-4fe2-9ccf-95fda243b420",
+  "application_token": "AstraCS:FEMwFFaScLXMfgWaOtGdQSNP:abba21f8e3db6253f51e8b60c89ad20b745f8667666ef574b57c9438c93a7d21",
+  "embedding_component_id": "OpenAIEmbeddings-abcde",
+  "language_model_component_id": "ChatOpenAI-fghij"
+}

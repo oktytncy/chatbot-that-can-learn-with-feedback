@@ -1,0 +1,165 @@
+{
+  "ChatInput-uYIvw": {
+    "files": "",
+    "sender": "User",
+    "sender_name": "User",
+    "session_id": "",
+    "should_store_message": true
+  },
+  "AstraVectorStoreComponent-84OZq": {
+    "api_endpoint": "https://19e7aba0-88d0-4e5c-9b13-07019d95061a-us-east-2.apps.astra.datastax.com",
+    "batch_size": null,
+    "bulk_delete_concurrency": null,
+    "bulk_insert_batch_concurrency": null,
+    "bulk_insert_overwrite_concurrency": null,
+    "collection_indexing_policy": "",
+    "collection_name": "my_store",
+    "metadata_indexing_exclude": "",
+    "metadata_indexing_include": "",
+    "metric": "",
+    "namespace": "",
+    "number_of_results": 4,
+    "pre_delete_collection": false,
+    "search_filter": {},
+    "search_input": "",
+    "search_score_threshold": 0,
+    "search_type": "Similarity",
+    "setup_mode": "Sync",
+    "token": "ASTRA_DB_APPLICATION_TOKEN"
+  },
+  "ParseData-WH4ms": {
+    "sep": "\n",
+    "template": "{text}"
+  },
+  "Prompt-f3ICP": {
+    "context": "",
+    "question": "",
+    "template": "You are a knowledgeable and helpful AI assistant.\nPlease provide comprehensive, informative, and relevant answers to my questions.\nRemember to carefully review our previous conversation to ensure your response is accurate and contextually appropriate.\n\nChat History:\n{chat_history}\n\nContext:\n{context}\n---\n\nGiven the context above, answer the question as best as possible.\n\nQuestion: {question}\n\nAnswer: ",
+    "chat_history": ""
+  },
+  "ChatOutput-6385n": {
+    "data_template": "{text}",
+    "input_value": "",
+    "sender": "Machine",
+    "sender_name": "AI",
+    "session_id": "",
+    "should_store_message": false
+  },
+  "SplitText-B5NeY": {
+    "chunk_overlap": 200,
+    "chunk_size": 1000,
+    "separator": "\n"
+  },
+  "File-nwCdA": {
+    "path": "Model S _ Tesla.pdf",
+    "silent_errors": false
+  },
+  "AstraVectorStoreComponent-NyrHH": {
+    "api_endpoint": "",
+    "batch_size": null,
+    "bulk_delete_concurrency": null,
+    "bulk_insert_batch_concurrency": null,
+    "bulk_insert_overwrite_concurrency": null,
+    "collection_indexing_policy": "",
+    "collection_name": "my_store",
+    "metadata_indexing_exclude": "",
+    "metadata_indexing_include": "",
+    "metric": "",
+    "namespace": "",
+    "number_of_results": 4,
+    "pre_delete_collection": false,
+    "search_filter": {},
+    "search_input": "",
+    "search_score_threshold": 0,
+    "search_type": "Similarity",
+    "setup_mode": "Sync",
+    "token": "ASTRA_DB_APPLICATION_TOKEN"
+  },
+  "OpenAIEmbeddings-WrTgS": {
+    "chunk_size": 1000,
+    "client": "",
+    "default_headers": {},
+    "default_query": {},
+    "deployment": "",
+    "dimensions": null,
+    "embedding_ctx_length": 1536,
+    "max_retries": 3,
+    "model": "text-embedding-3-small",
+    "model_kwargs": {},
+    "openai_api_base": "",
+    "openai_api_key": "OpenAI_API",
+    "openai_api_type": "",
+    "openai_api_version": "",
+    "openai_organization": "",
+    "openai_proxy": "",
+    "request_timeout": null,
+    "show_progress_bar": false,
+    "skip_empty": false,
+    "tiktoken_enable": true,
+    "tiktoken_model_name": ""
+  },
+  "OpenAIEmbeddings-aHLHK": {
+    "chunk_size": 1000,
+    "client": "",
+    "default_headers": {},
+    "default_query": {},
+    "deployment": "",
+    "dimensions": null,
+    "embedding_ctx_length": 1536,
+    "max_retries": 3,
+    "model": "text-embedding-3-small",
+    "model_kwargs": {},
+    "openai_api_base": "",
+    "openai_api_key": "OpenAI_API",
+    "openai_api_type": "",
+    "openai_api_version": "",
+    "openai_organization": "",
+    "openai_proxy": "",
+    "request_timeout": null,
+    "show_progress_bar": false,
+    "skip_empty": false,
+    "tiktoken_enable": true,
+    "tiktoken_model_name": ""
+  },
+  "OpenAIModel-UE0VP": {
+    "api_key": "OpenAI_API",
+    "input_value": "",
+    "json_mode": false,
+    "max_tokens": null,
+    "model_kwargs": {},
+    "model_name": "gpt-4o",
+    "openai_api_base": "",
+    "output_schema": {},
+    "seed": 1,
+    "stream": false,
+    "system_message": "",
+    "temperature": 0.1
+  },
+  "AstraDBChatMemory-GY9AN": {
+    "api_endpoint": "https://19e7aba0-88d0-4e5c-9b13-07019d95061a-us-east-2.apps.astra.datastax.com",
+    "collection_name": "feedback_collection",
+    "namespace": "",
+    "session_id": "",
+    "token": "ASTRA_DB_APPLICATION_TOKEN"
+  },
+  "Memory-lyPhH": {
+    "n_messages": 100,
+    "order": "Ascending",
+    "sender": "Machine and User",
+    "sender_name": "",
+    "session_id": "",
+    "template": "{sender_name}: {text}"
+  },
+  "StoreMessage-s3dPG": {
+    "message": "",
+    "sender": "",
+    "sender_name": "",
+    "session_id": ""
+  },
+  "StoreMessage-IQSoY": {
+    "message": "",
+    "sender": "",
+    "sender_name": "",
+    "session_id": ""
+  }
+}
